@@ -48,9 +48,9 @@ then
 		exit 1
 	fi
 fi
-echo "Removing old writer build artifacts and compiling natively"
-make clean
-make CROSS_COMPILE=
+#echo "Removing old writer build artifacts and compiling natively"
+#make clean
+#make CROSS_COMPILE=
 
 for i in $( seq 1 $NUMFILES)
 do
