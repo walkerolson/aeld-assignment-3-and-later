@@ -1,3 +1,5 @@
+#!/bin/sh
+
 #check if exactly two arguments are provided
 if [ "$#" -ne 2 ]; then
     echo "Error: Exactly two arguments are required."
